@@ -9,9 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    let userDefaults = UserDefaults(suiteName: "32Z9KZZ4PU.Neatified")
+    
+    @EnvironmentObject var state: UserState
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            if state.extensionEnabled {
+                ExtensionEnabled(userDefaults: userDefaults)
+            } else {
+                ExtensionDisabled()
+            }
+        }
     }
 }
 

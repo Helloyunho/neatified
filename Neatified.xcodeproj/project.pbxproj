@@ -14,6 +14,17 @@
 		552AAEC123E19C640038D705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552AAEBF23E19C640038D705 /* Main.storyboard */; };
 		552AAECD23E19C650038D705 /* NeatifiedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AAECC23E19C650038D705 /* NeatifiedTests.swift */; };
 		552AAED823E19C650038D705 /* NeatifiedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AAED723E19C650038D705 /* NeatifiedUITests.swift */; };
+		552AAEEC23E19C700038D705 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAEEB23E19C700038D705 /* Cocoa.framework */; };
+		552AAEEF23E19C700038D705 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AAEEE23E19C700038D705 /* SafariExtensionHandler.swift */; };
+		552AAEF123E19C700038D705 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AAEF023E19C700038D705 /* SafariExtensionViewController.swift */; };
+		552AAEF723E19C700038D705 /* neatified.js in Resources */ = {isa = PBXBuildFile; fileRef = 552AAEF623E19C700038D705 /* neatified.js */; };
+		552AAEF923E19C700038D705 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 552AAEF823E19C700038D705 /* ToolbarItemIcon.pdf */; };
+		552AAEFD23E19C700038D705 /* Neatified-Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 552AAEE923E19C700038D705 /* Neatified-Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		552AAF0523E1FA550038D705 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAF0423E1FA550038D705 /* SwiftUI.framework */; };
+		55F1613523E2B64A00F451A3 /* ExtensionEnabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1613423E2B64A00F451A3 /* ExtensionEnabled.swift */; };
+		55F1613723E2B85A00F451A3 /* ExtensionDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1613623E2B85A00F451A3 /* ExtensionDisabled.swift */; };
+		55F1613923E2CF5C00F451A3 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1613823E2CF5C00F451A3 /* State.swift */; };
+		55F1613B23E2E94200F451A3 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1613A23E2E94200F451A3 /* ExtensionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +42,28 @@
 			remoteGlobalIDString = 552AAEB223E19C630038D705;
 			remoteInfo = Neatified;
 		};
+		552AAEFB23E19C700038D705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 552AAEAB23E19C630038D705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 552AAEE823E19C700038D705;
+			remoteInfo = "Neatified-Safari";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		552AAF0123E19C700038D705 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				552AAEFD23E19C700038D705 /* Neatified-Safari.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		552AAEB323E19C630038D705 /* Neatified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neatified.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +80,20 @@
 		552AAED323E19C650038D705 /* NeatifiedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeatifiedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		552AAED723E19C650038D705 /* NeatifiedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeatifiedUITests.swift; sourceTree = "<group>"; };
 		552AAED923E19C650038D705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552AAEE923E19C700038D705 /* Neatified-Safari.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Neatified-Safari.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		552AAEEB23E19C700038D705 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		552AAEEE23E19C700038D705 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		552AAEF023E19C700038D705 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		552AAEF523E19C700038D705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552AAEF623E19C700038D705 /* neatified.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = neatified.js; sourceTree = "<group>"; };
+		552AAEF823E19C700038D705 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		552AAEFA23E19C700038D705 /* Neatified_Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neatified_Safari.entitlements; sourceTree = "<group>"; };
+		552AAF0423E1FA550038D705 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		552AAF0623E1FA8D0038D705 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55F1613423E2B64A00F451A3 /* ExtensionEnabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionEnabled.swift; sourceTree = "<group>"; };
+		55F1613623E2B85A00F451A3 /* ExtensionDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDisabled.swift; sourceTree = "<group>"; };
+		55F1613823E2CF5C00F451A3 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		55F1613A23E2E94200F451A3 /* ExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +118,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		552AAEE623E19C700038D705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552AAF0523E1FA550038D705 /* SwiftUI.framework in Frameworks */,
+				552AAEEC23E19C700038D705 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +136,8 @@
 				552AAEB523E19C630038D705 /* Neatified */,
 				552AAECB23E19C650038D705 /* NeatifiedTests */,
 				552AAED623E19C650038D705 /* NeatifiedUITests */,
+				552AAEED23E19C700038D705 /* Neatified-Safari */,
+				552AAEEA23E19C700038D705 /* Frameworks */,
 				552AAEB423E19C630038D705 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +148,7 @@
 				552AAEB323E19C630038D705 /* Neatified.app */,
 				552AAEC823E19C650038D705 /* NeatifiedTests.xctest */,
 				552AAED323E19C650038D705 /* NeatifiedUITests.xctest */,
+				552AAEE923E19C700038D705 /* Neatified-Safari.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,8 +156,10 @@
 		552AAEB523E19C630038D705 /* Neatified */ = {
 			isa = PBXGroup;
 			children = (
+				55F1613323E2B61E00F451A3 /* Views */,
 				552AAEB623E19C630038D705 /* AppDelegate.swift */,
 				552AAEB823E19C630038D705 /* ContentView.swift */,
+				55F1613823E2CF5C00F451A3 /* State.swift */,
 				552AAEBA23E19C640038D705 /* Assets.xcassets */,
 				552AAEBF23E19C640038D705 /* Main.storyboard */,
 				552AAEC223E19C640038D705 /* Info.plist */,
@@ -135,6 +195,39 @@
 			path = NeatifiedUITests;
 			sourceTree = "<group>";
 		};
+		552AAEEA23E19C700038D705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				552AAF0623E1FA8D0038D705 /* CoreGraphics.framework */,
+				552AAF0423E1FA550038D705 /* SwiftUI.framework */,
+				552AAEEB23E19C700038D705 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		552AAEED23E19C700038D705 /* Neatified-Safari */ = {
+			isa = PBXGroup;
+			children = (
+				55F1613A23E2E94200F451A3 /* ExtensionView.swift */,
+				552AAEEE23E19C700038D705 /* SafariExtensionHandler.swift */,
+				552AAEF023E19C700038D705 /* SafariExtensionViewController.swift */,
+				552AAEF523E19C700038D705 /* Info.plist */,
+				552AAEF623E19C700038D705 /* neatified.js */,
+				552AAEF823E19C700038D705 /* ToolbarItemIcon.pdf */,
+				552AAEFA23E19C700038D705 /* Neatified_Safari.entitlements */,
+			);
+			path = "Neatified-Safari";
+			sourceTree = "<group>";
+		};
+		55F1613323E2B61E00F451A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55F1613423E2B64A00F451A3 /* ExtensionEnabled.swift */,
+				55F1613623E2B85A00F451A3 /* ExtensionDisabled.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,10 +238,12 @@
 				552AAEAF23E19C630038D705 /* Sources */,
 				552AAEB023E19C630038D705 /* Frameworks */,
 				552AAEB123E19C630038D705 /* Resources */,
+				552AAF0123E19C700038D705 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				552AAEFC23E19C700038D705 /* PBXTargetDependency */,
 			);
 			name = Neatified;
 			productName = Neatified;
@@ -191,6 +286,23 @@
 			productReference = 552AAED323E19C650038D705 /* NeatifiedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		552AAEE823E19C700038D705 /* Neatified-Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552AAEFE23E19C700038D705 /* Build configuration list for PBXNativeTarget "Neatified-Safari" */;
+			buildPhases = (
+				552AAEE523E19C700038D705 /* Sources */,
+				552AAEE623E19C700038D705 /* Frameworks */,
+				552AAEE723E19C700038D705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neatified-Safari";
+			productName = "Neatified-Safari";
+			productReference = 552AAEE923E19C700038D705 /* Neatified-Safari.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +324,9 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 552AAEB223E19C630038D705;
 					};
+					552AAEE823E19C700038D705 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 552AAEAE23E19C630038D705 /* Build configuration list for PBXProject "Neatified" */;
@@ -230,6 +345,7 @@
 				552AAEB223E19C630038D705 /* Neatified */,
 				552AAEC723E19C650038D705 /* NeatifiedTests */,
 				552AAED223E19C650038D705 /* NeatifiedUITests */,
+				552AAEE823E19C700038D705 /* Neatified-Safari */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +375,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		552AAEE723E19C700038D705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552AAEF923E19C700038D705 /* ToolbarItemIcon.pdf in Resources */,
+				552AAEF723E19C700038D705 /* neatified.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,8 +391,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F1613523E2B64A00F451A3 /* ExtensionEnabled.swift in Sources */,
 				552AAEB923E19C630038D705 /* ContentView.swift in Sources */,
 				552AAEB723E19C630038D705 /* AppDelegate.swift in Sources */,
+				55F1613923E2CF5C00F451A3 /* State.swift in Sources */,
+				55F1613723E2B85A00F451A3 /* ExtensionDisabled.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +415,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		552AAEE523E19C700038D705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552AAEF123E19C700038D705 /* SafariExtensionViewController.swift in Sources */,
+				55F1613B23E2E94200F451A3 /* ExtensionView.swift in Sources */,
+				552AAEEF23E19C700038D705 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,6 +437,11 @@
 			isa = PBXTargetDependency;
 			target = 552AAEB223E19C630038D705 /* Neatified */;
 			targetProxy = 552AAED423E19C650038D705 /* PBXContainerItemProxy */;
+		};
+		552AAEFC23E19C700038D705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 552AAEE823E19C700038D705 /* Neatified-Safari */;
+			targetProxy = 552AAEFB23E19C700038D705 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,8 +573,10 @@
 		552AAEDD23E19C650038D705 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Neatified/Neatified.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Neatified/Preview Content\"";
@@ -453,8 +598,10 @@
 		552AAEDE23E19C650038D705 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Neatified/Neatified.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Neatified/Preview Content\"";
@@ -557,6 +704,48 @@
 			};
 			name = Release;
 		};
+		552AAEFF23E19C700038D705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Neatified-Safari/Neatified_Safari.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Neatified-Safari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.Neatified.Neatified-Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		552AAF0023E19C700038D705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Neatified-Safari/Neatified_Safari.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Neatified-Safari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.Neatified.Neatified-Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -592,6 +781,15 @@
 			buildConfigurations = (
 				552AAEE323E19C650038D705 /* Debug */,
 				552AAEE423E19C650038D705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		552AAEFE23E19C700038D705 /* Build configuration list for PBXNativeTarget "Neatified-Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552AAEFF23E19C700038D705 /* Debug */,
+				552AAF0023E19C700038D705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
