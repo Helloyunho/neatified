@@ -1,0 +1,6 @@
+framework module Pods_Neatified {
+  umbrella header "Pods-Neatified-umbrella.h"
+
+  export *
+  module * { export * }
+}

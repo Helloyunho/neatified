@@ -1,0 +1,11 @@
+framework module AppMover {
+  umbrella header "AppMover.h"
+
+  export *
+  module * { export * }
+}
+
+module AppMover.Swift {
+    header "AppMover-Swift.h"
+    requires objc
+}

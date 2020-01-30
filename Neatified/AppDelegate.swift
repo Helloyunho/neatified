@@ -9,6 +9,8 @@
 import Cocoa
 import SwiftUI
 import SafariServices
+import Sparkle
+import AppMover
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -36,6 +38,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
     }
+    
+    func applicationWillFinishLaunching(_ notification: Notification) {
+        AppMover.moveIfNecessary()
+    }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Create the SwiftUI view that provides the window contents.
@@ -54,6 +60,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+    }
+    
+    @IBAction func checkForUpdates(_ sender: Any) {
+        let updater = SUUpdater.shared()
+        updater?.feedURL = URL(string: "https://s3.ap-northeast-2.amazonaws.com/xyz.helloyunho.neatified/appcast.xml")
+        updater?.checkForUpdates(self)
     }
 
 
