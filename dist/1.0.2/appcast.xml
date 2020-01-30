@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Neatified</title>
+        <item>
+            <title>1.0.2</title>
+            <sparkle:releaseNotesLink>
+                https://s3.ap-northeast-2.amazonaws.com/xyz.helloyunho.neatified/CHANGELOG.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Fri, 31 Jan 2020 02:33:04 +0900</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://s3.ap-northeast-2.amazonaws.com/xyz.helloyunho.neatified/Neatified%201.0.2.zip" sparkle:version="1.0.2" sparkle:shortVersionString="1.0.2" sparkle:edSignature="bVev+njtA/DedMV46Ujes1sxKeh9wa+RbmKiD/WGh85Nbe5bJMv/YTMi1fXu+d9rlXcEt4duDDkeXQDnunueDg==" length="2295139" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>

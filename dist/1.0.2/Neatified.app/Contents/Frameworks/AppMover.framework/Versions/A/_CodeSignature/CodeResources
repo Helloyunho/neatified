@@ -11,55 +11,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AppMover-Swift.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WP0DYfgKMER9v1tlt5f369y/AD7sDaszxs3I2UxjjAc=
-			</data>
-		</dict>
-		<key>Headers/AppMover.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lw4b2mEXBXbd8g1t0+kvw5R0aCNC/qCadbYiWyjkMUY=
-			</data>
-		</dict>
-		<key>Modules/AppMover.swiftmodule/x86_64-apple-macos.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5OMCLI6KxbWC2swDY7sX9NUq3m9xiqIWSGiCLnClq1E=
-			</data>
-		</dict>
-		<key>Modules/AppMover.swiftmodule/x86_64-apple-macos.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uHTLkUFwc5bDtXa3SspJ9ePpA/f9uuEaD8re6aIPPbM=
-			</data>
-		</dict>
-		<key>Modules/AppMover.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5OMCLI6KxbWC2swDY7sX9NUq3m9xiqIWSGiCLnClq1E=
-			</data>
-		</dict>
-		<key>Modules/AppMover.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uHTLkUFwc5bDtXa3SspJ9ePpA/f9uuEaD8re6aIPPbM=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			36jd5fZAAStqXOs4qs3cd9CqNABRkoA9Lojit3+3EeY=
-			</data>
-		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>

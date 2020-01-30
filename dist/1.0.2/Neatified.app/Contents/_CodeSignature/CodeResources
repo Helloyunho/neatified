@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		EgS/wpzJRQhKDp4axD5weT48/+8=
+		sGdwsKmZejKMUZcHPiIQW96u+8I=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		caN3B2BOH+r7KafXSP+1XE7Mgmc=
+		nYqjUqXFrUPGZ7AVyF130rq/0Jw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Hb3lEVqVOpWC9UIpsH0oee41BXw=
+			sVczgA4Olqa0j1KZiMeHv790Rhg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cindori.AppMover" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: yunho050840@icloud.com (QL9XP97L87)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -45,10 +45,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			J98YO3g4Uuj/3GlVBAq103tFR6k=
+			FGr4+56uZYRo+IqZXV0Xu2C2pNw=
 			</data>
 			<key>requirement</key>
-			<string>identifier "xyz.helloyunho.Neatified.Neatified-Safari" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: yunho050840@icloud.com (QL9XP97L87)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "xyz.helloyunho.neatified.neatified-safari" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: yunho050840@icloud.com (QL9XP97L87)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvsUfwSZvc1YyoUTPM2TTpVircVUsfODIfo7sJD+BXo=
+			yBSHXyBXXU93cIFiwI8q7YhLqq8bko8ji6+ibuA+S6g=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mws5bIYGShQAfdBMNLyRvWug0xUkataITViziMUOupo=
+			to0HvnwRkjZz+abw4zFteXaf7EqNpkkB8/YbJGhAol8=
 			</data>
 		</dict>
 	</dict>

@@ -11,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Neatified-Safari</string>
 	<key>CFBundleIdentifier</key>
-	<string>xyz.helloyunho.Neatified.Neatified-Safari</string>
+	<string>xyz.helloyunho.neatified.neatified-safari</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,13 +19,13 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>

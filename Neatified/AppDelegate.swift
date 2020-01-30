@@ -20,7 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     
     func applicationWillBecomeActive(_ notification: Notification) {
-        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: "xyz.helloyunho.Neatified.Neatified-Safari") { (statee, error) in
+        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: "xyz.helloyunho.neatified.neatified-safari") { (statee, error) in
             if (statee?.isEnabled ?? false) {
                 DispatchQueue.main.async {
                     self.userState.extensionEnabled = true

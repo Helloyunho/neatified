@@ -27,7 +27,7 @@
 		55F1613B23E2E94200F451A3 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1613A23E2E94200F451A3 /* ExtensionView.swift */; };
 		55F1614323E3297C00F451A3 /* Pods_Neatified.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F926B3E120EB65F16218F5 /* Pods_Neatified.framework */; };
 		55F1614623E3298000F451A3 /* AppMover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F1614123E328EE00F451A3 /* AppMover.framework */; };
-		55F1614723E3298000F451A3 /* AppMover.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 55F1614123E328EE00F451A3 /* AppMover.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55F1614723E3298000F451A3 /* AppMover.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 55F1614123E328EE00F451A3 /* AppMover.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD3CFDCD7CF7ABB690BCBC86 /* Pods_Neatified_Safari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757EBAF0B9B5ADEC1D9D41DB /* Pods_Neatified_Safari.framework */; };
 		DDEDBCC888EA956EAA6C177D /* Pods_NeatifiedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AFB6FC2EFFEBD56FD651C /* Pods_NeatifiedTests.framework */; };
 		EA04A07C34723CD4E8FF5249 /* Pods_Neatified_NeatifiedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C959E370691D352E6A1E0 /* Pods_Neatified_NeatifiedUITests.framework */; };
@@ -768,7 +768,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.1;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_ASSET_PATHS = "\"Neatified/Preview Content\"";
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -783,8 +783,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.Neatified;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.neatified;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -800,7 +800,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.1;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_ASSET_PATHS = "\"Neatified/Preview Content\"";
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -815,8 +815,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.Neatified;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.neatified;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -917,16 +917,21 @@
 				CODE_SIGN_ENTITLEMENTS = "Neatified-Safari/Neatified_Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Neatified-Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.Neatified.Neatified-Safari";
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.neatified.neatified-safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -940,16 +945,21 @@
 				CODE_SIGN_ENTITLEMENTS = "Neatified-Safari/Neatified_Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Neatified-Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.Neatified.Neatified-Safari";
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.neatified.neatified-safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
