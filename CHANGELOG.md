@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.2.1
+
+- Changed certificate for app signing
+
 ## 1.0.2
 
 - Fix that the extension does not appear
